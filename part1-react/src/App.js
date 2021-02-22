@@ -1,20 +1,19 @@
 import './App.css';
-import Mensaje from './Mensaje.js'
+import Message from './Message.js'
 
 
 const Description = () => {
   return <p>
-    Esta la app del curso  fullstack bootcamp
+    This is the course application fullstack bootcamp
   </p>
 }
-
 const App = () => {
 
   return (
     <div className="App">
-      <Mensaje color='red' message='Estamos trabajando ' />
-      <Mensaje color='green' message='En un curso' />
-      <Mensaje color='blue' message='de React' />
+      <Message color='red' message='Estamos trabajando' />
+      <Message color='blue' message='En un curso' />
+      <Message color='green' message='de React' />
       <Description />
 
     </div>
